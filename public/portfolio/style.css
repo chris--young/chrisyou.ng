@@ -6624,6 +6624,9 @@ hr {
 /* PORTFOLIO
    ================================================== */
 .row-portfolio {
+    margin-bottom: 69px;
+}
+.row-portfolio:last-child {
     margin-bottom: 138px;
 }
 
