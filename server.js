@@ -4,7 +4,7 @@
  * @description: Server script for www.chrisyou.ng
  * @author: Chris Young (mail@chrisyou.ng)
  * @created: September 17th, 2015
- * @updated: October 29th, 2015
+ * @updated: November 11th, 2015
  */
 
 var fs = require('fs'),
@@ -13,7 +13,7 @@ var fs = require('fs'),
     uuid = require('node-uuid');
 
 var app = express(),
-    port = isNaN(process.argv[2]) ? 80 : process.argv[2];
+    port = isNaN(process.argv[2]) ? 8421 : process.argv[2];
 
 var highScore = require(__dirname + '/high_score.json');
 
